@@ -1,0 +1,28 @@
+---
+title: "newVignetteName1"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{newVignetteName1}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Section 1
+
+dsjadjsa
+
+## Section 1.1.
+
+Below is an R example for exampleFunction.
+
+```{r setup}
+library(exampleRepo)
+exampleRepo::exampleFunction()
+```
